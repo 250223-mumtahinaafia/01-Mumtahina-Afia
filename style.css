@@ -1,0 +1,406 @@
+
+body{
+    font-family: sans-serif;
+}
+/* Style the header */
+.header {
+ background-image: url('untitled.jpeg');
+	height:60px; 
+	width:100%;
+	
+	color:white;
+	
+	text-align:center;
+	padding:10px;
+	position:sticky;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #87A96B;
+  position:sticky;
+  top:0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding:30%;
+  text-decoration: none;
+  width:33%;
+  box-sizing: border-box;
+  font-size:17px;
+  font-weight:bold;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/*design for announcement*/
+.announce{
+	 background-image: url('l.jpeg');
+	padding:20px;
+	margin:auto;
+	width:80%;
+	margin-top:25px;
+	border-radius:7px;
+	font-family:sans-serif;
+	font-size:19px;
+	text-align:left;
+}
+
+/*Design for apply form*/
+
+
+.apply {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:40%;
+  margin:auto;
+  margin-top:20px;
+}
+input[type=text],
+ input[type=date],
+ input[type=email],
+ select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+ display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:17px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*table design for courses*/
+
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+table, td, th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+/*Design for footer*/
+.footer {
+  width: 97%;
+  padding:20px;
+  background-color: #0abde3;
+  color: white;
+  text-align: center;
+  margin-top:20px;
+  
+}
+
+
+/*image gallery*/
+
+.gallery{
+	width:80%;
+	margin:auto;
+	margin-top:20px;
+	background-color:#f4f4f4;
+	padding:15px;
+	text-align:center;
+	border-radius:6px;
+}
+
+.gallery img{
+	height:200px;
+	width:230px;
+	border-radius:6px;
+	margin:10px;
+
+}
+
+.link{
+	padding:10px;
+	
+}
+.header1{
+	background-image: url('Untitled.jpeg');
+	height:60px; 
+	width:100%;
+	
+	color:white;
+	
+	text-align:center;
+	padding:10px;
+	position:sticky;
+
+}
+	
+	
+
+.line{
+width: 120px;
+height: 50px;
+border-bottom: 1px solid black;
+position: absolute;
+margin-left:165px;
+}
+
+
+
+tr:nth-child(even){
+background-color:#f2f2f2;	
+}
+tr:nth-child(odd){
+background-color:#adad85;	
+}
+.p{
+	background-color:#c6ecc6;
+}	
+
+input[type=text],select,input[type=date],input[type=email],{
+	width:100%;
+	padding:13px;
+	border-radius:5px;
+    border:1px solid #ccc;
+	box-sizing:border-box;
+}
+input[type=radio]{
+	padding:13px;
+	box-sizing:border-box;
+
+input[type=submit]{
+	width:10%;
+	padding:10px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+	background-color:#04AA6D;
+	color:white;
+	font-size:20px;
+	cursor:pointer;
+}
+
+input[type=submit]:hover{
+background-color:#04AA3A;
+cursor:pointer;
+}
+
+	
+}
+a:link {
+  
+  text-decoration: none;
+  font-weight: bold;
+  float:left;
+  text-align:center;
+  width:10%;
+  display:block;
+  padding:12px;
+  box-sizing:border-box;
+  color:white;
+}
+
+.nav1{
+	background-color:#d4d4aa;
+	overflow:hidden;
+	position:sticky;
+	top:0px;
+	padding:5px;
+	height:35px;
+	text-align:left;
+	
+}
+.mpl{
+	height:480px;
+	width:30%;
+	margin:0;
+	padding:10px;
+	background-color:#F0E68C;
+	text-align:center;
+	box-sizing:border-box;
+	margin-left:35%;
+}
+p{
+	font-size:60px;
+	margin:5px;
+
+	
+}
+.parent {
+  border: 1px solid black;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color:#d4d4aa;
+  overflow:hidden;
+	position:sticky;
+	top:0px;
+	height:25px;
+}
+.child {
+  
+  border: 1px solid red;
+  padding: 10px;
+  height:5px;
+  
+}
+
+
+.announcement{
+	
+	
+    background-image:linear-gradient(to right,#d9b3ff,#ffccff,#ccddff);
+
+	padding:20px;
+	margin:auto;
+	width:80%;
+	margin-top:25px;
+	border-radius:7px;
+	font-family:sans-serif;
+	font-size:19px;
+	text-align:left;
+	
+	
+}
+/*image Gallary*/
+.gallary{
+	width:80%;
+	margin:auto;
+	margin-top:25px;
+	background-color: #ebebe0;
+	border-radius:6px;
+	margin-bottom:25px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	
+	
+}	
+
+.gallary img{
+	width:330px;
+	margin:10px;
+	margin-top:25px;
+	height:330px;
+	border-radius:8px;
+	margin-bottom:25px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+
+/*Design for footer*/
+
+.footer{
+ width:97%;
+ padding:20px;
+ background-color:#6699ff;
+ color:white;
+ text-align:center;
+ margin-top:20px;
+ position:fixed;
+ bottom:0px;
+ left:0px;
+}
+
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+table, td, th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#1d1160;
+  color: white;
+}
+span{
+  width: 50%;
+  margin: auto;
+}
+span a:link{
+  text-decoration: none;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px 12px;
+  margin-top: 50px;
+}
+
+.inline { 
+display: inline-block; 
+border: 1px solid black; 
+margin-top:150px;
+margin-left:50px;
+margin-right:50px;
+border-radius:20%;
+height:50px;
+width:100px;
+background-color: #002244;
+color:white;
+
+}
+.em1{
+	background-color:#5F9EA0;
+	overflow:hidden;
+	position:sticky;
+	top:0px;
+	padding:5px;
+	height:35px;
+     color:white;
+	text-align:left;
+}
+.form{
+	height:480px;
+	width:30%;
+	margin:0;
+	padding:10px;
+	background-color:#E1EBEE;
+	text-align:left;
+	box-sizing:border-box;
+	margin-left:35%;.form
